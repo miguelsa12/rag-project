@@ -1,0 +1,7 @@
+PyMuPDF
+unstructured
+sentence-transformers
+faiss-cpu
+llama-cpp-python
+gradio
+tqdm
