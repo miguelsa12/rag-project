@@ -1,9 +1,16 @@
 PyMuPDF
-unstructured
 sentence-transformers
+torch
+numpy
+scikit-learn
+transformers
+unstructured
 faiss-cpu
 llama-cpp-python
 gradio
 tqdm
 streamlit
 PyPDF2
+pandas
+regex
+requests

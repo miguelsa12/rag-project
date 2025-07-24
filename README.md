@@ -18,8 +18,8 @@ This repository contains a fully functional and well-documented implementation o
 ## Run Instructions
 
 - Clone this repository
-- Install dependencies: `pip install -r requirements.txt`
-- Include the PDF files in the local data/ directory
+- Install dependencies: `pip install -r requirements.txt`. Make sure you're inside the project folder (the one you cloned) when running this command in your terminal
+- Include the PDF files (the ones I provided via email) in the local data/ directory
 - Launch the notebook: jupyter notebook (notebooks/rag_demo.ipynb)
 
 ## App 

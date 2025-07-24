@@ -121,7 +121,7 @@ if __name__ == "__main__":
     rag = RAGPipeline()
     documents = rag.load_pdfs()
     embedded_chunks = rag.embed_chunks(documents)
-    question = "What is the edge?"
+    question = "How does the API layer keep training synchronized across Swarm nodes?"
     relevant_chunks = rag.retrieve_relevant_chunks(question, embedded_chunks)
     answer = rag.generate_answer(question, relevant_chunks)
     score = rag.evaluate_answer(question, answer)
