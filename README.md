@@ -17,10 +17,10 @@ This repository contains a fully functional and well-documented implementation o
 
 ## Run Instructions
 
--Clone this repository
--Install dependencies: `pip install -r requirements.txt`
--Include the PDF files in the local data/ directory
--Launch the notebook: jupyter notebook (notebooks/rag_demo.ipynb)
+- Clone this repository
+- Install dependencies: `pip install -r requirements.txt`
+- Include the PDF files in the local data/ directory
+- Launch the notebook: jupyter notebook (notebooks/rag_demo.ipynb)
 
 ## App 
 
