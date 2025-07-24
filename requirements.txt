@@ -5,3 +5,5 @@ faiss-cpu
 llama-cpp-python
 gradio
 tqdm
+streamlit
+PyPDF2
