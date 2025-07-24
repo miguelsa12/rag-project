@@ -1,4 +1,4 @@
-# RAG System – Take-Home Technical Interview
+# RAG System – Technical Interview
 
 This repository contains a fully functional and well-documented implementation of a **Retrieval-Augmented Generation** system. Designed to run locally on a CPU, this project showcases how to integrate a knowledge base, semantic search, and a lightweight generative model to answer user queries grounded in retrieved content.
 
@@ -14,3 +14,15 @@ This repository contains a fully functional and well-documented implementation o
 - Jupyter notebook demo
 - Architecture slide deck
 - Design rationale, implementation steps, and challenges
+
+## Run Instructions
+
+-Clone this repository
+-Install dependencies: `pip install -r requirements.txt`
+-Include the PDF files in the local data/ directory
+-Launch the notebook: jupyter notebook (notebooks/rag_demo.ipynb)
+
+## App 
+
+- Run `streamlit run app.py` and wait for it to open in your web browser
+- Start testing in a more interactive way
