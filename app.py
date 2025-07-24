@@ -14,7 +14,7 @@ if 'documents' not in st.session_state:
     st.session_state.documents = rag.load_pdfs()
     st.session_state.embedded_chunks = rag.embed_chunks(st.session_state.documents)
 
-st.title("📄💬 RAG Demo: Ask Your PDFs")
+st.title("💬 RAG Demo: Ask Your PDFs")
 
 question = st.text_input("Type your question here:")
 
@@ -22,14 +22,14 @@ if st.button("Generate Answer") and question:
     relevant_chunks = rag.retrieve_relevant_chunks(question, st.session_state.embedded_chunks)
     answer = rag.generate_answer(question, relevant_chunks)
 
-    # Evaluación
+    # Evaluation
     similarity_score = rag.evaluate_answer(question, answer)
 
-    # Mostrar resultado
+    # Show result
     st.subheader("🔍 Answer")
     st.write(answer)
 
-    st.metric(label="🧪 Similarity Score (Q-A)", value=f"{similarity_score:.2f}")
+    st.metric(label="🧪 Similarity Score:", value=f"{similarity_score:.2f}")
 
     st.subheader("📚 Context used")
     for i, chunk in enumerate(relevant_chunks, 1):
